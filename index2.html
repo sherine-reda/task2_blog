@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>form</title>
+  <link rel="stylesheet" href="style_task2.css">
+</head>
+
+<body>
+  <div class="title">
+    <h1>Good Vibes Form</h1>
+  </div>
+  <div class="form">
+    
+    <form>
+      <div><p>Tell us something positive that happened to you today</p></div>
+      <div >
+        <label>Name</label>
+        <input style="width: 250px;" type="text" required placeholder="Enter your name" name="user" width="200px;" />
+      </div>
+      <div> <label>Email</label>
+        <input style="width: 250px;" type="email" required placeholder="Enter your email address" name="mail">
+      </div>
+
+      <div>
+        <laber>On a scale of 1-10, how good was it?</laber>
+        <input style="width: 250px;" type="number" required placeholder="Enter a number between 1 and 10" name="number"
+          min="1" max="10">
+      </div>
+
+
+      <div style="width: 68.3%;"><label>Where did it happened</label>
+        <select style="width: 100px;">
+          <option value="1">home</option>
+          <option value="2">Work</option>
+          <option value="3">school</option>
+        </select>
+      </div>
+
+      <div style="width: 63%;"> <label> What time of day did it happen</label>
+        <div style="display:flex;justify-content:end;align-content:center;" >
+        <input name="morning" id="radio" type="radio" value="Morning" />
+        <label>Morning</label></div>
+      </div>
+      <div style="display:block;padding-left: 47.6%;"> <input name="morning" id="radio1" type="radio" value="Afternoon" />
+        <label>Afternoon</label>
+      </div>
+
+      <div style="display:block;padding-left: 47.6%;"><input name="morning" id="radio2" type="radio" value="Evening" />
+      <label>Evening</label>
+      </div>
+      <div style="display:flex;width: 62.3%;"><label>What emotions did you experince?</label>
+        <div  style="display: block;"><input type="checkbox" value="Excited" />
+          <label  style="">Excited</label></div> 
+      </div>
+      <div style="display:block;padding-left: 47.6%;"><input type="checkbox" value="Humbled" />
+        <label>Humbled</label>
+      </div>
+      <div style="display:block;padding-left: 47.6%;"><input type="checkbox" value="Elated" />
+        <label>Excited</label>
+      </div>
+      <div style="display:block;padding-left: 47.6%;"><input type="checkbox" value="Loved" />
+        <label>Loved</label>
+      </div>
+      <div style="display:block;padding-left: 47.6%;"> <input type="checkbox" value="Enthusiastic" />
+        <label>Enthusiastic</label>
+      </div>
+      <div style="width:95%"><label class="_textarea">Please describe your positive experince</label>
+        <textarea cols="30" rows="4" placeholder="Enter your experince here..."></textarea>
+      </div>
+      <div style="justify-content:center;
+      align-content:center;"> <input type="submit" value="submit" style="background-color: rgb(92, 157, 198); border-color:transparent;color: white;" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
